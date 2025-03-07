@@ -17,23 +17,41 @@ Usar como space name std, ahorra tiempo al definir la entrada y salida de datos,
 Librerías
 En este caso se recomienda usar la librería bits/stc++.h, ya que incluye la mayoría de librerías estándar tales como:
 📂 Librerías de Entrada/Salida
+
 <iostream> → Entrada y salida estándar (cin, cout).
+
 <cstdio> → Entrada/salida en estilo C (printf, scanf).
+
 <iomanip> → Manipulación de la salida (setprecision, fixed).
+
 📂 Librerías de Contenedores STL
+
 <vector> → Arreglos dinámicos.
+
 <deque> → Cola de dos extremos.
+
 <list> → Lista doblemente enlazada.
+
 <queue> → Cola FIFO (queue) y cola de prioridad (priority_queue).
+
 <stack> → Pila LIFO (stack).
+
 <set> → Conjunto ordenado (set y multiset).
+
 <map> → Diccionario clave-valor (map y multimap).
+
 <unordered_set> → Conjunto desordenado.
+
 <unordered_map> → Diccionario clave-valor sin orden.
+
 📂 Librerías de Algoritmos
+
 <algorithm> → Algoritmos generales (sort, binary_search, max_element).
+
 <functional> → Funciones (greater<int>, less<int>).
+
 <numeric> → Funciones matemáticas (accumulate, gcd, lcm).
+
 📂 Librerías de Cadenas
 <string> → Manejo de cadenas (string).
 <cstring> → Funciones de manipulación de char* (memset, strcpy, strcmp).
