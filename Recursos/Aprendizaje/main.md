@@ -1,5 +1,5 @@
 
-##Estructura del archivo
+## Estructura del archivo
 ```
 // 📂 1. Inclusión de librerías necesarias
 #include <bits/stdc++.h>
@@ -27,14 +27,14 @@ int main() {
     return 0;
 }
 ```
-##Recomendaciones
+## Recomendaciones
 Usar como space name std, ahorra tiempo al definir la entrada y salida de datos, dejarlo justo debajo de los llamados a las librerías:
  using namespace std;
 
-##Librerías
+## Librerías
 En este caso se recomienda usar la librería bits/stc++.h, ya que incluye la mayoría de librerías estándar tales como:
 
-###📂 Librerías de Entrada/Salida
+### 📂 Librerías de Entrada/Salida
 
 <iostream> → Entrada y salida estándar (cin, cout).
 
@@ -42,7 +42,7 @@ En este caso se recomienda usar la librería bits/stc++.h, ya que incluye la may
 
 <iomanip> → Manipulación de la salida (setprecision, fixed).
 
-###📂 Librerías de Contenedores STL
+### 📂 Librerías de Contenedores STL
 
 <vector> → Arreglos dinámicos.
 
@@ -62,7 +62,7 @@ En este caso se recomienda usar la librería bits/stc++.h, ya que incluye la may
 
 <unordered_map> → Diccionario clave-valor sin orden.
 
-###📂 Librerías de Algoritmos
+### 📂 Librerías de Algoritmos
 
 <algorithm> → Algoritmos generales (sort, binary_search, max_element).
 
@@ -70,13 +70,13 @@ En este caso se recomienda usar la librería bits/stc++.h, ya que incluye la may
 
 <numeric> → Funciones matemáticas (accumulate, gcd, lcm).
 
-###📂 Librerías de Cadenas
+### 📂 Librerías de Cadenas
 
 <string> → Manejo de cadenas (string).
 
 <cstring> → Funciones de manipulación de char* (memset, strcpy, strcmp).
 
-###📂 Librerías de Matemáticas
+### 📂 Librerías de Matemáticas
 
 <cmath> → Funciones matemáticas (sqrt, pow, log, abs).
 
@@ -90,7 +90,7 @@ En este caso se recomienda usar la librería bits/stc++.h, ya que incluye la may
 
 <cassert> → Aserciones (assert para depuración).
 
-###📂 Otras librerías útiles
+### 📂 Otras librerías útiles
 
 <bitset> → Manipulación eficiente de bits.
 
