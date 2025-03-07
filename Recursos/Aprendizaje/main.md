@@ -1,19 +1,20 @@
 
 Estructura del archivo
-
+```
 // 📂 1. Inclusión de librerías necesarias
 #include <bits/stdc++.h>
+// 📂 2. Uso de un namespace (opcional, pero útil en competencias)
 using namespace std;
 
-// 📂 2. Uso de un namespace (opcional, pero útil en competencias)
+// 📂 3. Método para optimizar la entrada y salida
 #define fastIO() ios_base::sync_with_stdio(0); cin.tie(0);
 
-// 📂 3. Métodos auxiliares para el problema
+// 📂 4. Métodos auxiliares para el problema
 int suma(int a, int b) {
     return a + b;
 }
 
-// 📂 4. Función principal (Main)
+// 📂 5. Función principal (Main)
 int main() {
     fastIO(); // Optimización de entrada/salida
 
@@ -24,7 +25,7 @@ int main() {
 
     return 0;
 }
-
+```
 Recomendaciones
 Usar como space name std, ahorra tiempo al definir la entrada y salida de datos, dejarlo justo debajo de los llamados a las librerías:
  using namespace std;
