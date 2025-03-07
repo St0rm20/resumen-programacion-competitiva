@@ -1,14 +1,29 @@
-### Recursos
-
-GUIA_PROGRAMACION_COMPETITIVA/Matematicas at main · newneo4/GUIA_PROGRAMACION_COMPETITIVA
-
-roca12/gpccodes: Ejercicios de programación competitiva resueltos por los diferentes competidores de la universidad ECCI
 
 Estructura del archivo
 
+// 📂 1. Inclusión de librerías necesarias
+#include <bits/stdc++.h>
+using namespace std;
 
-![image](https://github.com/user-attachments/assets/3a6dec70-5c71-4be9-9546-81e094dc6c3a)
+// 📂 2. Uso de un namespace (opcional, pero útil en competencias)
+#define fastIO() ios_base::sync_with_stdio(0); cin.tie(0);
 
+// 📂 3. Métodos auxiliares para el problema
+int suma(int a, int b) {
+    return a + b;
+}
+
+// 📂 4. Función principal (Main)
+int main() {
+    fastIO(); // Optimización de entrada/salida
+
+    int x, y;
+    cin >> x >> y;
+
+    cout << "La suma es: " << suma(x, y) << "\n";
+
+    return 0;
+}
 
 Recomendaciones
 Usar como space name std, ahorra tiempo al definir la entrada y salida de datos, dejarlo justo debajo de los llamados a las librerías:
