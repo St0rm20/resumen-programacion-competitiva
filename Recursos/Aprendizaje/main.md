@@ -1,4 +1,4 @@
-Recursos
+###Recursos
 
 GUIA_PROGRAMACION_COMPETITIVA/Matematicas at main · newneo4/GUIA_PROGRAMACION_COMPETITIVA
 
