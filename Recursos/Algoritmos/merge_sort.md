@@ -4,6 +4,13 @@ Su función es dividir un arreglo en mitades hasta que su longitud sea 1 y empie
 
 
 ## Funcionamiento gráfico 
+![image](https://github.com/user-attachments/assets/ab945364-ce1e-4be8-87ad-cbf7c7f5a98f)
+
+![image](https://github.com/user-attachments/assets/85b0872f-abf3-4e22-bbc4-dcb2b8e94d99)
+
+![image](https://github.com/user-attachments/assets/62561a47-4d5a-48b1-be87-89d211c90835)
+
+![image](https://github.com/user-attachments/assets/0072f7ae-a28b-40f0-aaa7-114599c15eae)
 
 ## Pila de ejecución 
 
