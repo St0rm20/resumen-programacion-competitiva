@@ -2,6 +2,9 @@
 # Merge Sort
 Su función es dividir un arreglo en mitades hasta que su longitud sea 1 y empieza el ordenamiento.
 
+### Complejidad
+O(n logn)
+
 
 ## Funcionamiento gráfico 
 ![image](https://github.com/user-attachments/assets/ab945364-ce1e-4be8-87ad-cbf7c7f5a98f)
