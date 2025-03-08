@@ -15,3 +15,4 @@ No es necesario especificar el tamaño del arreglo.
 El resto del arreglo que no se defina se llenará con ceros.
 `int arr2[5] = {1, 2, 3};`
 
+![image](https://github.com/user-attachments/assets/4ae94bed-cedc-4308-af42-52e4b1650813)
