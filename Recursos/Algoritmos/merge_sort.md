@@ -16,6 +16,7 @@ Su función es dividir un arreglo en mitades hasta que su longitud sea 1 y empie
 
 https://docs.google.com/spreadsheets/d/1wpG9vxO6u_2BtVmV9rMBK4P01p76yAPz/edit?usp=sharing&ouid=116578698635795141975&rtpof=true&sd=true
 
+## Código
 ```
 #include <bits/stdc++.h>
 using namespace std;
