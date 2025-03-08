@@ -27,6 +27,26 @@ int main() {
     return 0;
 }
 ```
+### Copy
+
+```
+#include <bits/stdc++.h>
+using namespace std;
+#define fastIO() ios_base::sync_with_stdio(0); cin.tie(0);
+
+
+}
+
+int main() {
+    fastIO(); 
+
+    
+
+    return 0;
+}
+```
+
+
 ## Recomendaciones
 Usar como space name std, ahorra tiempo al definir la entrada y salida de datos, dejarlo justo debajo de los llamados a las librerías:
  using namespace std;
