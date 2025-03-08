@@ -36,6 +36,7 @@ else
 ```
 
 Buscar desde una posición específica:
+
 `size_t pos2 = s1.find('o', 1);  // Buscar 'o' a partir del índice 1 `
 
 
