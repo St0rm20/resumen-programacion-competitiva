@@ -232,6 +232,34 @@ Accede al dato almacenado en esa dirección
 La mayoría de las estructuras dinámicas en C++ se construyen a partir de esta idea; listas enlazadas, árboles, grafos y muchas implementaciones internas de la STL utilizan punteros para conectar objetos almacenados en memoria.
 
 
-#Practica
+# Practica
 
 https://leetcode.com/problems/reverse-linked-list/
+
+## Solución
+```cpp
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
+ */
+class Solution {
+public:
+    ListNode* reverseList(ListNode* head) {
+        ListNode* prev = nullptr;
+        while(head != nullptr){
+            ListNode* cur = head->next;
+            head->next = prev;
+            prev = head;
+            head = cur;
+        }
+        return prev;
+        
+    }
+};
+```
