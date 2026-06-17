@@ -234,4 +234,4 @@ La mayoría de las estructuras dinámicas en C++ se construyen a partir de esta 
 
 #Practica
 
-https://leetcode.com/problems/reverse-linked-list/?utm_source=chatgpt.com
+https://leetcode.com/problems/reverse-linked-list/
