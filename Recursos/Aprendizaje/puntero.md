@@ -234,9 +234,10 @@ La mayoría de las estructuras dinámicas en C++ se construyen a partir de esta 
 
 # Practica
 
+## Ejercicio 1
 https://leetcode.com/problems/reverse-linked-list/
 
-## Solución
+### Solución
 ```cpp
 /**
  * Definition for singly-linked list.
@@ -260,6 +261,67 @@ public:
         }
         return prev;
         
+    }
+};
+```
+
+
+## Ejercicio 2
+https://leetcode.com/problems/remove-linked-list-elements/
+
+### Solución 1
+En esta solución se usa un dummy, lo cual consume mayor memoria
+```cpp
+class Solution {
+public:
+    ListNode* removeElements(ListNode* head, int val) {
+        ListNode* dummy = new ListNode(0);
+        dummy->next = head;
+        ListNode* curr = dummy;
+
+        while (curr->next != nullptr) {
+            if (curr->next->val == val) {
+                curr->next = curr->next->next; // salta el nodo
+            } else {
+                curr = curr->next;             // avanza solo si no eliminó
+            }
+        }
+
+        return dummy->next;
+    }
+};
+```
+
+### Solución 2
+En esta solución se usa doble iteración, el rendimiento es igual pero no usa nueva memoria
+```cpp
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
+ */
+class Solution {
+public:
+    ListNode* removeElements(ListNode* head, int val) {
+        
+        while(head != nullptr && head->val == val){
+            head = head->next;
+        }
+        if(head == nullptr) return head;
+        ListNode* iterator = head;
+        while(iterator->next != nullptr){
+            if(iterator->next->val ==val){
+                iterator-> next = iterator->next->next;
+            }else{
+                iterator = iterator->next;
+            }
+        }
+        return head;
     }
 };
 ```
