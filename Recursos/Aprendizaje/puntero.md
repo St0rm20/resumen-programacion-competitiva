@@ -230,3 +230,8 @@ Accede al dato almacenado en esa dirección
 ```
 
 La mayoría de las estructuras dinámicas en C++ se construyen a partir de esta idea; listas enlazadas, árboles, grafos y muchas implementaciones internas de la STL utilizan punteros para conectar objetos almacenados en memoria.
+
+
+#Practica
+
+https://leetcode.com/problems/reverse-linked-list/?utm_source=chatgpt.com
