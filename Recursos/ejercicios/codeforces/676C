@@ -1,0 +1,32 @@
+#include <bits/stdc++.h>
+using namespace std;
+#define fastIO() ios_base::sync_with_stdio(0); cin.tie(0);
+
+int maxSubstring(const string& s, int n, int k, char target) {
+    int left = 0, count = 0, best = 0;
+
+    for (int right = 0; right < n; right++) {
+        if (s[right] != target) count++;
+
+        while (count > k) {            
+            if (s[left] != target) count--;
+            left++;
+        }
+
+        best = max(best, right - left + 1); 
+    }
+
+    return best;
+}
+
+int main() {
+    fastIO();
+    int n, k;
+    string s;
+    cin >> n >> k;
+    cin >> s;
+
+    cout << max(maxSubstring(s, n, k, 'a'), maxSubstring(s, n, k, 'b')) << endl;
+
+    return 0;
+}
